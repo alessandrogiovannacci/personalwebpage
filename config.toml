@@ -1,0 +1,257 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "sada"
+
+###################################################################################
+
+[params]
+    title = "Alessandro's web page"
+    author = "Alessandro Giovannacci"
+    description = "About me"
+    copyright = "© 2019, Alessandro Giovannacci"
+    copyright_link = ""
+
+    # Profile section
+    [params.profile]
+        name = "Alessandro Giovannacci"
+        photo = "ale.jpg"
+
+###################################################################################
+
+   #x
+    # Section for links to social websites
+
+    #[params.social]
+
+        #title = "Links"
+
+        #[[params.social.list]]
+        #class = "fab"
+        #icon = "fa-linkedin-in"
+        #url = "#"
+        #title = "LinkedIn"
+
+        #[[params.social.list]]
+        #class = "fab"
+        #icon = "fa-github"
+        #url = "#"
+        #title = "GitHub"
+
+		#[[params.social.list]]
+        #class = "ai"
+        #icon = "ai-google-scholar"
+        #url = "#"
+        #title = "Google Scholar"
+
+###################################################################################
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Bachelor's degree in Computer science"
+        college = "Università degli studi dell'Insubria"
+        dates = "november 2015 - september 2018"
+        thesis_title = "Alberi e strutture ordinate: una implementazione in Java"
+        thesis_link = "Tesi_Giovannacci_Alessandro_F004.pdf"
+
+        
+
+###################################################################################
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Italian"
+        level = "First language"
+				
+        [[params.language.list]]
+        language = "English"
+        level = "B2 level of CEFR scale"
+
+###################################################################################
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Travelling"
+		
+		[[params.hobbies.list]]
+        interest = "Logic games"
+
+        [[params.hobbies.list]]
+        interest = "Reading"
+
+        [[params.hobbies.list]]
+        interest = "Video games"
+
+        [[params.hobbies.list]]
+        interest = "Puzzles"
+
+        [[params.hobbies.list]]
+        interest = "Scuba diving"
+
+        [[params.hobbies.list]]
+        interest = "Kitesurfing (in the learning phase)"
+
+###################################################################################
+
+    [params.aboutme]
+        description = "What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I am currently attending the Master's degree course in `Computer science` at Università degli studi dell'Insubria, in Varese. My course of study provides a specialization in the `software engineering`'s field."
+
+###################################################################################
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Main experiences"
+
+        [[params.jobs.list]]
+        position = "Employee"
+        dates = "2015 - *Present*"
+		link = "#"
+        company = "Varese professionisti s.r.l."
+        details = "Accounting management, programming (ad hoc software for internal use), IT system management."
+
+        [[params.jobs.list]]
+        position = "Employee"
+        dates = "2015"
+		link = "#"
+        company = "GPA"
+        details = "Developing software for avionic simulators (Qt framework)."
+
+        [[params.jobs.list]]
+        position = "For a complete overview, you can have a look at my cv."
+        dates = ""
+        link = "curriculum_vitae_AG.pdf"
+        company = "Curriculum vitae"
+
+###################################################################################
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Academic projects"
+
+        [[params.projects.list]]
+        title = "Watchneighbors"
+        url = "#"
+        description = "Stand-alone java application that monitors the neighborhood. This application lets the user report abnormal events, visualize them and take them in charge. Users can visualize reports list of their neighborhood. Data retention is carried out through csv files."
+		
+		[[params.projects.list]]
+        title = "seatIn"
+        url = "#"
+        description = "Client-server application developed with Java technology. It is the acronym of simple e-learning at Insubria; the software recreates a typical e-learning platform, where professors, students and administrators login with their username and password, share files, update their profiles, visualize information about courses provided by the university. Used technologies: RMI for client/server communication, PostgreSQL for storing and managing data, JDBC for interfacing Java app with DBMS."
+
+        [[params.projects.list]]
+        title = "Data analysis with R"
+        url = "#"
+        description = "Data analysis with R language using RStudio IDE. Dataset ant-1.7.csv, containing 745 objects (Java classes) of 24 variables. The purpose of the project is to analyze the defectiveness of the software, correlating dependent variable bugs with other independent variables (depth of inheritance tree, number of children, lines of code), establishing the correlation between the first variable and the others. It has been used binary logistic regression analysis."
+
+        [[params.projects.list]]
+        title = "GMaker"
+        url = "#"
+        description = "Software written in Java; It lets the user create graphs by defining ordered graphs. GMaker requires Graphviz, a graph generator application, that allows to generate graphs that are initially represented as files with dot extension. GMaker generates a file with dot extension, and this file is the input for the program that render it, and generates a graph drawing, or equivalently, the Hasse diagram; at this point, GMaker takes care of showing to the user the generated graph. Various graphs can be generated, as they represent different algebraic structures: partition of a set, down-sets of a poset, disjoined down-sets of a poset, join-irreducible elements set of a poset."
+
+###################################################################################
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+
+        skill = "OOP"
+
+        skillrating = 100
+
+
+        [[params.skills.list]]
+
+        skill = "Java"
+
+        skillrating = 80
+
+
+        [[params.skills.list]]
+
+        skill = "JavaFX"
+
+        skillrating = 80
+
+        
+        [[params.skills.list]]
+
+        skill = "Netbeans"
+
+        skillrating = 100
+
+
+        [[params.skills.list]]
+
+        skill = "SQL"
+
+        skillrating = 90
+
+		
+        [[params.skills.list]]
+
+        skill = "PostgreSQL"
+
+        skillrating = 80
+
+
+        [[params.skills.list]]
+
+        skill = "C"
+
+        skillrating = 60
+
+
+        [[params.skills.list]]
+
+        skill = "Git"
+
+        skillrating = 50
+
+
+
+        [[params.skills.list]]
+
+        skill = "C++"
+
+        skillrating = 40
+
+
+        [[params.skills.list]]
+
+        skill = "UML"
+
+        skillrating = 50
+
+
+        [[params.skills.list]]
+
+        skill = "Apache Ant"
+
+        skillrating = 50
+
+
+        [[params.skills.list]]
+
+        skill = "Scala"
+
+        skillrating = 30
+
+
+        [[params.skills.list]]
+
+        skill = "R"
+
+        skillrating = 30
