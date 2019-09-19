@@ -116,7 +116,7 @@ theme = "sada"
         position = "Employee"
         dates = "2015 - *Present*"
 		link = "#"
-        company = "Varese professionisti s.r.l."
+        company = "Varese professionisti"
         details = "Accounting management, programming (ad hoc software for internal use), IT system management."
 
         [[params.jobs.list]]
