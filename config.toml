@@ -32,11 +32,11 @@ theme = "sada"
         #url = "#"
         #title = "LinkedIn"
 
-        #[[params.social.list]]
-        #class = "fab"
-        #icon = "fa-github"
-        #url = "#"
-        #title = "GitHub"
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/alessandrogiovannacci"
+        title = "GitHub"
 
 		#[[params.social.list]]
         #class = "ai"
