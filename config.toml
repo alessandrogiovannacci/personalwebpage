@@ -22,9 +22,9 @@ theme = "sada"
    #x
     # Section for links to social websites
 
-    #[params.social]
+    [params.social]
 
-        #title = "Links"
+        title = "Links"
 
         #[[params.social.list]]
         #class = "fab"
