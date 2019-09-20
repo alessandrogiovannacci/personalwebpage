@@ -157,7 +157,7 @@ theme = "sada"
         [[params.projects.list]]
         title = "GMaker"
         url = "#"
-        description = "Software written in Java; It lets the user create graphs by defining ordered graphs. GMaker requires Graphviz, a graph generator application, that allows to generate graphs that are initially represented as files with dot extension. GMaker generates a file with dot extension, and this file is the input for the program that render it, and generates a graph drawing, or equivalently, the Hasse diagram; at this point, GMaker takes care of showing to the user the generated graph. Various graphs can be generated, as they represent different algebraic structures: partition of a set, down-sets of a poset, disjoined down-sets of a poset, join-irreducible elements set of a poset."
+        description = "Software written in Java; It lets the user create graphs by defining ordered sets. GMaker requires Graphviz, a graph generator application, that allows to generate graphs that are initially represented as files with dot extension. GMaker generates a file with dot extension, and this file is the input for the program that render it, and generates a graph drawing, or equivalently, the Hasse diagram; at this point, GMaker takes care of showing to the user the generated graph. Various graphs can be generated, as they represent different algebraic structures: partition of a set, down-sets of a poset, disjoined down-sets of a poset, join-irreducible elements set of a poset."
 
 ###################################################################################
 
