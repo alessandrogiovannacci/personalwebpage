@@ -50,7 +50,7 @@ theme = "sada"
         title = "Education"
 
         [[params.education.list]]
-        degree = "Bachelor's degree in Computer science"
+        degree = "Bachelor of Science in Computer Science"
         college = "Università degli studi dell'Insubria"
         dates = "november 2015 - september 2018"
         thesis_title = "Alberi e strutture ordinate: una implementazione in Java"
