@@ -102,7 +102,7 @@ theme = "sada"
 ###################################################################################
 
     [params.aboutme]
-        description = "What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I am currently attending the Master's degree course in `Computer science` at Università degli studi dell'Insubria, in Varese. My course of study provides a specialization in the `software engineering`'s field."
+        description = "What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I am currently attending the Master's degree course in `Computer science` at Università degli studi dell'Insubria, in Varese. My course of study provides a specialization in the `software engineering`'s field, as well as in `data management, analysis and security`."
 
 ###################################################################################
 
