@@ -109,7 +109,7 @@ theme = "sada"
     # Experiences section
     [params.experiences]
         icon = "fa-briefcase"
-        title = "Main experiences"
+        title = "Last experiences"
 
         [[params.jobs.list]]
         position = "Employee"
