@@ -91,7 +91,7 @@ theme = "sada"
         interest = "Video games"
 
         [[params.hobbies.list]]
-        interest = "Puzzles"
+        interest = "Enigmatography"
 
         [[params.hobbies.list]]
         interest = "Scuba diving (in the learning phase)"
