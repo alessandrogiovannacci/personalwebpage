@@ -210,6 +210,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.skills.list]]
 
+        skill = "MongoDB"
+
+        skillrating = 50
+
+
+        [[params.skills.list]]
+
         skill = "C"
 
         skillrating = 60
