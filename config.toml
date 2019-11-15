@@ -221,6 +221,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.skills.list]]
 
+        skill = "Batch scripting"
+
+        skillrating = 70
+
+
+        [[params.skills.list]]
+
         skill = "C"
 
         skillrating = 60
