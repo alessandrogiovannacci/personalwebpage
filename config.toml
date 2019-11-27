@@ -117,6 +117,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Last experiences"
 
         [[params.jobs.list]]
+        position = "#"
+        dates = "2019 - *Present*"
+		link = "#"
+        company = "National Institute for Astrophysics (INAF)"
+        details = "Curricular internship"
+
+        [[params.jobs.list]]
         position = "Employee"
         dates = "2015 - *Present*"
 		link = "#"
