@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2019 - *Present*"
 		link = "http://www.inaf.it/it"
         company = "National Institute for Astrophysics (INAF)"
-        details = "Curricular internship at Università degli studi dell'Insubria (internal training)"
+        details = "Curricular internship at Università degli studi dell'Insubria (internal training)."
 
         [[params.jobs.list]]
         position = "Employee"
