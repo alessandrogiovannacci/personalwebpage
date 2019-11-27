@@ -119,7 +119,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.jobs.list]]
         position = ""
         dates = "2019 - *Present*"
-		link = "#"
+		link = "http://www.inaf.it/it"
         company = "National Institute for Astrophysics (INAF)"
         details = "Curricular internship"
 
