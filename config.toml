@@ -278,6 +278,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.skills.list]]
 
+        skill = "Power BI"
+
+        skillrating = 60
+
+
+        [[params.skills.list]]
+
         skill = "R"
 
         skillrating = 30
