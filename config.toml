@@ -86,7 +86,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Logic games"
 
         [[params.hobbies.list]]
-        interest = "Running & swimming"
+        interest = "Trail running, swimming, functional training"
 
         [[params.hobbies.list]]
         interest = "Reading"
