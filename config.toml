@@ -163,7 +163,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.projects.list]]
         title = "Data analysis with R"
         url = "#"
-        description = "Data analysis with R language using RStudio IDE. Dataset ant-1.7.csv, containing 745 objects (Java classes) of 24 variables. The purpose of the project is to analyze the defectiveness of the software, correlating dependent variable bugs with other independent variables (depth of inheritance tree, number of children, lines of code), establishing the correlation between the first variable and the others. It has been used binary logistic regression analysis."
+        description = "Data analysis with R language using RStudio IDE. Dataset ant-1.7.csv, containing 745 objects (Java classes) of 24 variables. The purpose of the project is to analyze the defectiveness of the software, correlating dependent variable bugs with other independent variables (depth of inheritance tree, number of children, lines of code), establishing the correlation between the first variable and the others. Binary logistic regression analysis has been used."
 
         [[params.projects.list]]
         title = "GMaker"
