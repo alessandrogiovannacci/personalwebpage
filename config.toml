@@ -100,9 +100,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.hobbies.list]]
         interest = "Scuba diving (in the learning phase)"
 
-        [[params.hobbies.list]]
-        interest = "Kitesurfing (in the learning phase)"
-
 ###################################################################################
 
     [params.aboutme]
