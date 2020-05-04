@@ -103,7 +103,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 ###################################################################################
 
     [params.aboutme]
-        description = "I am currently attending the Master's degree course in `Computer science` at Università degli studi dell'Insubria, in Varese. My course of study provides a specialization in the `software engineering`'s field, as well as in `data management, analysis and security`. What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I have many interests, I obviously cannot fail to mention `programming` (even in my spare time). I am also very interested about what concerns the universe: this is due to various science documentaries I watched over the years, stimulating my curiosity about what's outside of the Earth."
+        description = "I am currently attending the Master's degree course in `Computer science` at Università degli studi dell'Insubria, in Varese. My course of study provides a specialization in the `software engineering`'s field, as well as in `data management, analysis and security`. What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I have many interests, I obviously cannot fail to mention `programming` (even in my spare time). I am also very interested about what concerns the universe: this is due to various science documentaries I watched over the years, stimulating my curiosity about what's outside of the Earth. Last but not least, I am a passionate gamer from the age of 6."
 
 
 ###################################################################################
