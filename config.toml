@@ -51,6 +51,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Education"
 
         [[params.education.list]]
+        degree = "Master of Science in Computer Science"
+        college = "Università degli studi dell'Insubria"
+        dates = "october 2018 - december 2020"
+        thesis_title = "Design and development of applications related to system engineering activities of astronomical instrumentation with SysML"
+        thesis_link = "thesis_728707.pdf"
+
+        [[params.education.list]]
         degree = "Bachelor of Science in Computer Science"
         college = "Università degli studi dell'Insubria"
         dates = "november 2015 - september 2018"
@@ -86,7 +93,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Logic games"
 
         [[params.hobbies.list]]
-        interest = "Trail running, swimming, functional training"
+        interest = "Running, swimming, functional training"
 
         [[params.hobbies.list]]
         interest = "Reading"
@@ -97,13 +104,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.hobbies.list]]
         interest = "Enigmatography"
 
-        [[params.hobbies.list]]
-        interest = "Scuba diving (in the learning phase)"
-
 ###################################################################################
 
     [params.aboutme]
-        description = "I am currently attending the Master's degree course in `Computer science` at Università degli studi dell'Insubria, in Varese. My course of study provides a specialization in the `software engineering`'s field, as well as in `data management, analysis and security`. What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I have many interests, I obviously cannot fail to mention `programming` (even in my spare time). I am also very interested about what concerns the universe: this is due to various science documentaries I watched over the years, stimulating my curiosity about what's outside of the Earth. Last but not least, I am a passionate gamer from the age of 6."
+        description = "My course of study at Università degli studi dell'Insubria provided a specialization in the `software engineering`'s field, as well as in `data management, analysis and security`. What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. I have many interests, I obviously cannot fail to mention `programming` (even in my spare time). I am also very interested about what concerns the universe: this is due to various science documentaries I watched over the years, stimulating my curiosity about what's outside of the Earth. Last but not least, I am a passionate gamer from the age of 6."
 
 
 ###################################################################################
@@ -115,7 +119,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.jobs.list]]
         position = "Trainee"
-        dates = "2019 - *Present*"
+        dates = "2019 - 2020"
 		link = "http://www.inaf.it/it"
         company = "National Institute for Astrophysics (INAF)"
         details = "Curricular internship at Università degli studi dell'Insubria (internal training)."
