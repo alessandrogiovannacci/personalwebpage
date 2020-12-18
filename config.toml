@@ -16,7 +16,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Profile section
     [params.profile]
         name = "Alessandro Giovannacci"
-        photo = "ale.jpg"
+        photo = "ale.png"
 
 ###################################################################################
 
