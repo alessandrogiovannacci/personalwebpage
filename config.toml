@@ -189,7 +189,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         skill = "Java"
 
-        skillrating = 80
+        skillrating = 90
 
 
         [[params.skills.list]]
@@ -197,13 +197,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         skill = "JavaFX"
 
         skillrating = 80
-
-        
-        [[params.skills.list]]
-
-        skill = "Netbeans"
-
-        skillrating = 100
 
 
         [[params.skills.list]]
@@ -226,6 +219,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         skillrating = 50
 
+        [[params.skills.list]]
+
+        skill = "SQLite"
+
+        skillrating = 70
+
 
         [[params.skills.list]]
 
@@ -246,7 +245,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         skill = "Git"
 
         skillrating = 50
-
 
 
         [[params.skills.list]]
