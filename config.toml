@@ -206,6 +206,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.skills.list]]
 
+        skill = "Apache Velocity"
+
+        skillrating = 80
+
+
+        [[params.skills.list]]
+
         skill = "SQL"
 
         skillrating = 90
