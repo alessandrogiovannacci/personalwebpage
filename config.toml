@@ -152,6 +152,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Academic projects"
 
         [[params.projects.list]]
+        title = "Java plugin for Cameo Systems Modeler"
+        url = "#"
+        description = "INAF (National Institute for Astrophysics) required a software system that simplifies the generation of a specific file in Cameo Systems Modeler context: the report. The first task is the creation of a Velocity template, which is a specific file that contains a VTL script. Once the template file has been created, the configuration of the Report Wizard is fundamental, because the entire report generation process can be customized, specifying the scope from which the diagram extrapolation must begin, as well as setting the Report data, a collection of report which can be included in the generated report, and output options. The last step is the implementation of a Cameo Systems Modeler plugin, using the Java language. CSM is mainly written in Java, and developers made available a specific Application Programming Interface (API) through which extensions can be written and included in the software."
+
+        [[params.projects.list]]
         title = "Watchneighbors"
         url = "#"
         description = "Stand-alone java application that monitors the neighborhood. This application lets the user report abnormal events, visualize them and take them in charge. Users can visualize reports list of their neighborhood. Data retention is carried out through csv files."
