@@ -129,7 +129,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2015 - *Present*"
 		link = "#"
         company = "Varese professionisti"
-        details = "Accounting management, programming (ad hoc software for internal use), IT system management."
+        details = "Accounting management, Information Technology manager, Programmer (ad hoc software for internal use)."
 
         [[params.jobs.list]]
         position = "Employee"
