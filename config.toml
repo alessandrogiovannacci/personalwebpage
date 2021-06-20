@@ -96,6 +96,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Running, swimming, functional training"
 
         [[params.hobbies.list]]
+        interest = "Kitesurfing"
+
+        [[params.hobbies.list]]
         interest = "Reading"
 
         [[params.hobbies.list]]
