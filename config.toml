@@ -121,6 +121,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Last experiences"
 
         [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "2021 - *present*"
+		link = "https://it.linkedin.com/company/iriscube-reply"
+        company = "Iriscube Reply"
+        details = "Backend software development for banks."
+
+        [[params.jobs.list]]
         position = "Trainee"
         dates = "2019 - 2020"
 		link = "http://www.inaf.it/it"
@@ -129,7 +136,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.jobs.list]]
         position = "Employee"
-        dates = "2015 - *Present*"
+        dates = "2015 - 2021"
 		link = "#"
         company = "Varese professionisti"
         details = "Accounting management, Information Technology manager, Programmer (ad hoc software for internal use)."
@@ -233,6 +240,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         skill = "MongoDB"
 
         skillrating = 50
+
+        [[params.skills.list]]
+
+        skill = "Oracle"
+
+        skillrating = 70
+
 
         [[params.skills.list]]
 
