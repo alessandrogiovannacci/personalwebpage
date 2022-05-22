@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "Alessandro's web page"
     author = "Alessandro Giovannacci"
     description = "About me"
-    copyright = "© 2021, Alessandro Giovannacci"
+    copyright = "© 2022, Alessandro Giovannacci"
     copyright_link = ""
 
     # Profile section
