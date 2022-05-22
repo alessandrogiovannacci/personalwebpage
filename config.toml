@@ -122,7 +122,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.jobs.list]]
         position = "Software engineer"
-        dates = "2021 - *present*"
+        dates = "2022 - *present*"
+        link = "https://www.arca24.com/it/"
+        company = "Arca24"
+        details = "Backend software development for employment agencies."
+
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "2021 - 2022"
 		link = "https://it.linkedin.com/company/iriscube-reply"
         company = "Iriscube Reply"
         details = "Backend software development for banks."
@@ -209,6 +216,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.skills.list]]
 
+        skill = "PHP"
+
+        skillrating = 70
+
+
+        [[params.skills.list]]
+
         skill = "JavaFX"
 
         skillrating = 80
@@ -226,6 +240,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         skill = "SQL"
 
         skillrating = 90
+
+
+        [[params.skills.list]]
+
+        skill = "MySQL"
+
+        skillrating = 70
 
 		
         [[params.skills.list]]
