@@ -125,7 +125,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2022 - present"
         link = "https://www.arca24.com/it/"
         company = "Arca24"
-        details = "Backend software development for employment agencies."
+        details = "Backend softwaredevelopment for employment agencies."
 
         [[params.jobs.list]]
         position = "Software engineer"
