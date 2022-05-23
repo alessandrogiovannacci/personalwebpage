@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" class=""><head>
 	<meta name="generator" content="Hugo 0.99.1" />
   <title>Alessandro&#39;s web page</title>
 
@@ -9,10 +8,10 @@
   <meta name="description" content="About me" />
   <meta name="author" content="Alessandro Giovannacci" />
 
-  <script src="/src/toggleTheme.js"></script>
-  <script src="/src/sada_main.js"></script>
+  
+    <link rel="stylesheet" href="/personalwebpage/css/main.min.css" />
 
-  <link href="https://alessandrogiovannacci.github.io/personalwebpage//src/bootstrap.min.css" rel="stylesheet" />
+
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -23,425 +22,301 @@
     rel="stylesheet"
     href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
   />
-  <link
-    href="https://fonts.googleapis.com/css?family=Roboto|Material+Icons"
-    rel="stylesheet"
-  />
-
-  <style>
-    .toggleTheme {
-      cursor: pointer;
-    }
-    .bg-dark {
-      background-color: #23272c !important;
-    }
-  </style>
 </head>
+<body class="max-w-screen-md mx-auto prose dark:prose-dark px-2 pb-4 bg-gray-100 dark:bg-dark1 duration-250"><header class="flex flex-row justify-between items-center my-2">
+  <i></i>
+  <i
+    class="toggle-theme cursor-pointer fas fa-sun text-gray-600 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+    onclick="toggleTheme(this)"
+  ></i>
+</header>
 
-
-  <body class="bg-dark container" style="font-family: 'Roboto', sans-serif;">
-    <div class="d-flex flex-column flex-sm-row mt-2">
-  <div class="mr-4 text-center float-left" style="width: 160px;">
-    <script src="https://alessandrogiovannacci.github.io/personalwebpage//src/sada_main.js"></script>
-    <img
-      class="rounded-circle"
-      src="https://alessandrogiovannacci.github.io/personalwebpage//images/ale.jpg"
-      alt="Alessandro Giovannacci"
-      style="width: 150px;"
-    />
-    <h3 class="toggleTheme text-white mt-2" onclick="toggleTheme()" title="toggle theme">
-      <i class="material-icons">
-        brightness_medium
-      </i>
-    </h3>
-  </div>
-
+<script>
+  const toggleTheme = (el) => {
+    const html = document.querySelector("html");
+    if (el.classList.contains("fa-moon")) {
+      el.classList.remove("fa-moon");
+      el.classList.add("fa-sun");
+      html.classList.add("dark");
+    } else {
+      el.classList.remove("fa-sun");
+      el.classList.add("fa-moon");
+      html.classList.remove("dark");
+    }
+  };
+</script>
+<main class="flex sm:flex-row-reverse flex-row flex-wrap">
+<section
+  class="w-full sm:w-2/5 bg-gray-200 dark:bg-dark2 p-3 rounded shadow flex flex-col justify-between"
+>
   <div>
-    <ul class="list-inline mb-1 mt-2">
-    
-    <li class="list-inline-item ml-1 mr-1">
-        <a class="text-warning" href="https://github.com/alessandrogiovannacci">
-            <i class="fab fa-github" style="font-size:25px;"></i>
-        </a>
-    </li>
-    
-</ul>
-    <h1 class="text-white mb-1">Alessandro Giovannacci</h1>
-    <h3 class="text-light">About me</h3>
-    <p class="text-white">
-      My course of study at Università degli studi dell&rsquo;Insubria provided a specialization in the <code>software engineering</code>&rsquo;s field, as well as in <code>data management, analysis and security</code>. What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. At work, others describe me as very precise and organized. I have many interests, I obviously cannot fail to mention <code>programming</code> (even in my spare time). I am also very interested about what concerns the universe: this is due to various science documentaries I watched over the years, stimulating my curiosity about what&rsquo;s outside of the Earth. Last but not least, I am a passionate gamer from the age of 6.
-    </p>
+    <h1 class="text-center">Alessandro Giovannacci</h1>
+    <div class="flex justify-center w-full">
+  <div class="w-4/5">
+    <img
+      class="my-0 rounded-full"
+      src="/personalwebpage/ale.jpg"
+      alt="Alessandro Giovannacci"
+    />
   </div>
 </div>
 
-    <div class="row mt-1">
-      <div
-        class="col-sm-4 order-sm-2 bg-secondary text-white border border-secondary rounded pt-3"
-      >
-        <h3>Education</h3>
+    <div class="flex mb-1 mt-2 justify-center flex-wrap">
+  
+  <a href="https://github.com/alessandrogiovannacci">
+    <i class="fa-github text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
+</div>
 
-<dl>
-    <dt><i class="fas fa-graduation-cap"></i> Master of Science in Computer Science</dt>
-    <dd class="mb-0 ml-3">Università degli studi dell&#39;Insubria</dd>
-    <dd class="mb-0 ml-3">october 2018 - december 2020</dd>
-    
-    <dd class="mb-0 ml-4">
-        Thesis:
-        <a class="text-warning" href="thesis_728707.pdf"><i>Design and development of applications related to system engineering activities of astronomical instrumentation with SysML</i></a>
-    </dd>
-    
-</dl>
+    <div class="d-flex flex-column mt-2">
+  <h3>About me</h3>
+  <p class="mb-2 ml-1">My course of study at Università degli studi dell&rsquo;Insubria provided a specialization in the <code>software engineering</code>&rsquo;s field, as well as in <code>data management, analysis and security</code>. What can I say about me with few words? I am curious, I want to understand how things work, and I always want to learn new things. At work, others describe me as very precise and organized. I have many interests, I obviously cannot fail to mention <code>programming</code> (even in my spare time). I am also very interested about what concerns the universe: this is due to various science documentaries I watched over the years, stimulating my curiosity about what&rsquo;s outside of the Earth. Last but not least, I am a passionate gamer from the age of 6.</p>
+</div>
 
-<dl>
-    <dt><i class="fas fa-graduation-cap"></i> Bachelor of Science in Computer Science</dt>
-    <dd class="mb-0 ml-3">Università degli studi dell&#39;Insubria</dd>
-    <dd class="mb-0 ml-3">november 2015 - september 2018</dd>
-    
-    <dd class="mb-0 ml-4">
-        Thesis:
-        <a class="text-warning" href="Tesi_Giovannacci_Alessandro_F004.pdf"><i>Alberi e strutture ordinate: una implementazione in Java</i></a>
-    </dd>
-    
-</dl>
+    <h3>Languages</h3>
 
-        <hr style="width:50%;" />
-        <h3>Languages</h3>
-<ul class="list-unstyled" style="text-indent: 1.25em;">
-    
-    <li>Italian <span class="lang-desc">(First language)</span></li>
-    
-    <li>English <span class="lang-desc">(B2 level of CEFR scale)</span></li>
-    
-</ul>
-        <hr style="width:50%;" />
-        <h3>Hobbies</h3>
-<ul class="list-unstyled" style="text-indent: 1.25em;">
-    
-    <li>Travelling</li>
-    
-    <li>Logic games</li>
-    
-    <li>Running, swimming, functional training</li>
-    
-    <li>Kitesurfing</li>
-    
-    <li>Reading</li>
-    
-    <li>Video games</li>
-    
-    <li>Enigmatography</li>
-    
-</ul>
-      </div>
+<p class="ml-1">Italian (First language)</p>
 
-      <div class="col-sm-8 text-white pt-3">
-        <h3><i class="fas fa-briefcase"></i> Last experiences</h3>
+<p class="ml-1">English (B2 level of CEFR scale)</p>
 
 
-<dl>
-    <dt>Software engineer</dt>
-    <dd class="mb-0 ml-3">2022 - present</dd>
-    <dd class="mb-0 ml-3"><a class="text-warning" href="https://www.arca24.com/it/">Arca24</a></dd>
-    <dd class="mb-0 ml-3">Backend softwaredevelopment for employment agencies.</dd>
-</dl>
+    <h3>Hobbies</h3>
 
-<dl>
-    <dt>Software engineer</dt>
-    <dd class="mb-0 ml-3">2021 - 2022</dd>
-    <dd class="mb-0 ml-3"><a class="text-warning" href="https://it.linkedin.com/company/iriscube-reply">Iriscube Reply</a></dd>
-    <dd class="mb-0 ml-3">Backend software development for banks.</dd>
-</dl>
+<p class="ml-1">Travelling</p>
 
-<dl>
-    <dt>Trainee</dt>
-    <dd class="mb-0 ml-3">2019 - 2020</dd>
-    <dd class="mb-0 ml-3"><a class="text-warning" href="http://www.inaf.it/it">National Institute for Astrophysics (INAF)</a></dd>
-    <dd class="mb-0 ml-3">Curricular internship at Università degli studi dell&rsquo;Insubria (internal training).</dd>
-</dl>
+<p class="ml-1">Logic games</p>
 
-<dl>
-    <dt>Employee</dt>
-    <dd class="mb-0 ml-3">2015 - 2021</dd>
-    <dd class="mb-0 ml-3"><a class="text-warning" href="#">Varese professionisti</a></dd>
-    <dd class="mb-0 ml-3">Accounting management, Information Technology manager, Programmer (ad hoc software for internal use).</dd>
-</dl>
+<p class="ml-1">Running, swimming, functional training</p>
 
-<dl>
-    <dt>Employee</dt>
-    <dd class="mb-0 ml-3">2015</dd>
-    <dd class="mb-0 ml-3"><a class="text-warning" href="#">GPA</a></dd>
-    <dd class="mb-0 ml-3">Developing software for avionic simulators (Qt framework).</dd>
-</dl>
+<p class="ml-1">Kitesurfing</p>
 
-<dl>
-    <dt>For a complete overview, you can have a look at my cv.</dt>
-    <dd class="mb-0 ml-3"></dd>
-    <dd class="mb-0 ml-3"><a class="text-warning" href="curriculum_vitae_AG.pdf">Curriculum vitae</a></dd>
-    <dd class="mb-0 ml-3"></dd>
-</dl>
+<p class="ml-1">Reading</p>
 
-        <h3 class="mt-4"><i class="fas fa-project-diagram"></i> Academic projects</h3>
+<p class="ml-1">Video games</p>
 
-<ul class="list-unstyled">
-    <li><a class="text-warning" href="#">Java plugin for Cameo Systems Modeler</a> - INAF (National Institute for Astrophysics) required a software system that simplifies the generation of a specific file in Cameo Systems Modeler context: the report. The first task is the creation of a Velocity template, which is a specific file that contains a VTL script. Once the template file has been created, the configuration of the Report Wizard is fundamental, because the entire report generation process can be customized, specifying the scope from which the diagram extrapolation must begin, as well as setting the Report data, a collection of report which can be included in the generated report, and output options. The last step is the implementation of a Cameo Systems Modeler plugin, using the Java language. CSM is mainly written in Java, and developers made available a specific Application Programming Interface (API) through which extensions can be written and included in the software.</li>
-</ul>
+<p class="ml-1">Enigmatography</p>
 
-<ul class="list-unstyled">
-    <li><a class="text-warning" href="#">Watchneighbors</a> - Stand-alone java application that monitors the neighborhood. This application lets the user report abnormal events, visualize them and take them in charge. Users can visualize reports list of their neighborhood. Data retention is carried out through csv files.</li>
-</ul>
 
-<ul class="list-unstyled">
-    <li><a class="text-warning" href="#">seatIn</a> - Client-server application developed with Java technology. It is the acronym of simple e-learning at Insubria; the software recreates a typical e-learning platform, where professors, students and administrators login with their username and password, share files, update their profiles, visualize information about courses provided by the university. Used technologies: RMI for client/server communication, PostgreSQL for storing and managing data, JDBC for interfacing Java app with DBMS.</li>
-</ul>
+  </div><footer class="text-center text-sm pt-2 border-t border-gray-500 mt-6">
+  <p>© 2022, Alessandro Giovannacci</p>
+  <p>
+    <a href="https://github.com/darshanbaral/sada">sada</a> by
+    <a href="https://www.darshanbaral.com">darshan</a>
+  </p>
+</footer>
+</section>
 
-<ul class="list-unstyled">
-    <li><a class="text-warning" href="#">Data analysis with R</a> - Data analysis with R language using RStudio IDE. Dataset ant-1.7.csv, containing 745 objects (Java classes) of 24 variables. The purpose of the project is to analyze the defectiveness of the software, correlating dependent variable bugs with other independent variables (depth of inheritance tree, number of children, lines of code), establishing the correlation between the first variable and the others. Binary logistic regression analysis has been used.</li>
-</ul>
+<section class="w-full sm:w-3/5 px-3">
+  <div class="mb-8">
+  <h2 class="mt-8 sm:mt-0">
+    <i class="fas fa-briefcase"></i>
+    Last experiences
+  </h2>
 
-<ul class="list-unstyled">
-    <li><a class="text-warning" href="#">GMaker</a> - Software written in Java; it lets the user create graphs by defining ordered sets. GMaker requires Graphviz, a graph generator application, that allows to generate graphs that are initially represented as files with dot extension. GMaker generates a file with dot extension, and this file is the input for the program that render it, and generates a graph drawing, or equivalently, the Hasse diagram; at this point, GMaker takes care of showing to the user the generated graph. Various graphs can be generated, as they represent different algebraic structures: partition of a set, down-sets of a poset, disjoined down-sets of a poset, join-irreducible elements set of a poset.</li>
-</ul>
+  
+  <h3 class="mb-1">Software engineer</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="https://www.arca24.com/it/">Arca24</a>
+     &middot; 2022 - present
+  </p>
+  <p class="ml-2 mb-0">Backend software development for employment agencies.</p>
+  
+  <h3 class="mb-1">Software engineer</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="https://it.linkedin.com/company/iriscube-reply">Iriscube Reply</a>
+     &middot; 2021 - 2022
+  </p>
+  <p class="ml-2 mb-0">Backend software development for banks.</p>
+  
+  <h3 class="mb-1">Trainee</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="http://www.inaf.it/it">National Institute for Astrophysics (INAF)</a>
+     &middot; 2019 - 2020
+  </p>
+  <p class="ml-2 mb-0">Curricular internship at Università degli studi dell&rsquo;Insubria (internal training).</p>
+  
+  <h3 class="mb-1">Employee</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="#">Varese professionisti</a>
+     &middot; 2015 - 2021
+  </p>
+  <p class="ml-2 mb-0">Accounting management, Information Technology manager, Programmer (ad hoc software for internal use).</p>
+  
+  <h3 class="mb-1">Employee</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="#">GPA</a>
+     &middot; 2015
+  </p>
+  <p class="ml-2 mb-0">Developing software for avionic simulators (Qt framework).</p>
+  
+  <h3 class="mb-1">For a complete overview, you can have a look at my cv.</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="curriculum_vitae_AG.pdf">Curriculum vitae</a>
+     &middot; 
+  </p>
+  <p class="ml-2 mb-0"></p>
+  
+</div>
 
-        <h3>
+  <div class="mb-8">
+  <h2>
+  <i class="fas fa-graduation-cap"></i>
+  Education
+</h2>
+
+<h3>Master of Science in Computer Science</h3>
+  <p class="ml-1 mb-0"><span class="font-semibold">Università degli studi dell&#39;Insubria</span> &middot; october 2018 - december 2020</p>
+  
+  <p class="ml-2 mb-0">
+    Thesis:
+    <a class="text-warning" href="thesis_728707.pdf"
+      ><i>Design and development of applications related to system engineering activities of astronomical instrumentation with SysML</i></a
+    >
+  </p>
+  
+
+<h3>Bachelor of Science in Computer Science</h3>
+  <p class="ml-1 mb-0"><span class="font-semibold">Università degli studi dell&#39;Insubria</span> &middot; november 2015 - september 2018</p>
+  
+  <p class="ml-2 mb-0">
+    Thesis:
+    <a class="text-warning" href="Tesi_Giovannacci_Alessandro_F004.pdf"
+      ><i>Alberi e strutture ordinate: una implementazione in Java</i></a
+    >
+  </p>
+  
+
+</div>
+
+  <div class="mb-8">
+<h2 class="mt-4">
+    <i class="fas fa-project-diagram"></i> Academic projects
+</h2>
+
+<h3 class="mb-1"><a class="text-warning" href="#">Java plugin for Cameo Systems Modeler</a></h3>
+<p class="mb-0 ml-1">INAF (National Institute for Astrophysics) required a software system that simplifies the generation of a specific file in Cameo Systems Modeler context: the report. The first task is the creation of a Velocity template, which is a specific file that contains a VTL script. Once the template file has been created, the configuration of the Report Wizard is fundamental, because the entire report generation process can be customized, specifying the scope from which the diagram extrapolation must begin, as well as setting the Report data, a collection of report which can be included in the generated report, and output options. The last step is the implementation of a Cameo Systems Modeler plugin, using the Java language. CSM is mainly written in Java, and developers made available a specific Application Programming Interface (API) through which extensions can be written and included in the software.</p>
+
+<h3 class="mb-1"><a class="text-warning" href="#">Watchneighbors</a></h3>
+<p class="mb-0 ml-1">Stand-alone java application that monitors the neighborhood. This application lets the user report abnormal events, visualize them and take them in charge. Users can visualize reports list of their neighborhood. Data retention is carried out through csv files.</p>
+
+<h3 class="mb-1"><a class="text-warning" href="#">seatIn</a></h3>
+<p class="mb-0 ml-1">Client-server application developed with Java technology. It is the acronym of simple e-learning at Insubria; the software recreates a typical e-learning platform, where professors, students and administrators login with their username and password, share files, update their profiles, visualize information about courses provided by the university. Used technologies: RMI for client/server communication, PostgreSQL for storing and managing data, JDBC for interfacing Java app with DBMS.</p>
+
+<h3 class="mb-1"><a class="text-warning" href="#">Data analysis with R</a></h3>
+<p class="mb-0 ml-1">Data analysis with R language using RStudio IDE. Dataset ant-1.7.csv, containing 745 objects (Java classes) of 24 variables. The purpose of the project is to analyze the defectiveness of the software, correlating dependent variable bugs with other independent variables (depth of inheritance tree, number of children, lines of code), establishing the correlation between the first variable and the others. Binary logistic regression analysis has been used.</p>
+
+<h3 class="mb-1"><a class="text-warning" href="#">GMaker</a></h3>
+<p class="mb-0 ml-1">Software written in Java; it lets the user create graphs by defining ordered sets. GMaker requires Graphviz, a graph generator application, that allows to generate graphs that are initially represented as files with dot extension. GMaker generates a file with dot extension, and this file is the input for the program that render it, and generates a graph drawing, or equivalently, the Hasse diagram; at this point, GMaker takes care of showing to the user the generated graph. Various graphs can be generated, as they represent different algebraic structures: partition of a set, down-sets of a poset, disjoined down-sets of a poset, join-irreducible elements set of a poset.</p>
+
+</div>
+  <h2>
   <i class="fas fa-cogs"></i>
   Skills
-</h3>
+</h2>
 
-<code>OOP</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 100%;"
-  ></div>
+<p class="mt-2">OOP</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 100%;"></div>
 </div>
 
-<code>Java</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 90%;"
-  ></div>
+<p class="mt-2">Java</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 90%;"></div>
 </div>
 
-<code>PHP</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 70%;"
-  ></div>
+<p class="mt-2">PHP</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 70%;"></div>
 </div>
 
-<code>JavaFX</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 80%;"
-  ></div>
+<p class="mt-2">JavaFX</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 80%;"></div>
 </div>
 
-<code>Apache Velocity</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 80%;"
-  ></div>
+<p class="mt-2">Apache Velocity</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 80%;"></div>
 </div>
 
-<code>SQL</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 90%;"
-  ></div>
+<p class="mt-2">SQL</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 90%;"></div>
 </div>
 
-<code>MySQL</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 70%;"
-  ></div>
+<p class="mt-2">MySQL</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 70%;"></div>
 </div>
 
-<code>PostgreSQL</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 80%;"
-  ></div>
+<p class="mt-2">PostgreSQL</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 80%;"></div>
 </div>
 
-<code>MongoDB</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 50%;"
-  ></div>
+<p class="mt-2">MongoDB</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 50%;"></div>
 </div>
 
-<code>Oracle</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 70%;"
-  ></div>
+<p class="mt-2">Oracle</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 70%;"></div>
 </div>
 
-<code>SQLite</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 70%;"
-  ></div>
+<p class="mt-2">SQLite</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 70%;"></div>
 </div>
 
-<code>Batch scripting</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 70%;"
-  ></div>
+<p class="mt-2">Batch scripting</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 70%;"></div>
 </div>
 
-<code>C</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 60%;"
-  ></div>
+<p class="mt-2">C</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 60%;"></div>
 </div>
 
-<code>Git</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 50%;"
-  ></div>
+<p class="mt-2">Git</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 50%;"></div>
 </div>
 
-<code>C&#43;&#43;</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 40%;"
-  ></div>
+<p class="mt-2">C&#43;&#43;</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 40%;"></div>
 </div>
 
-<code>UML</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 50%;"
-  ></div>
+<p class="mt-2">UML</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 50%;"></div>
 </div>
 
-<code>Apache Ant</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 50%;"
-  ></div>
+<p class="mt-2">Apache Ant</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 50%;"></div>
 </div>
 
-<code>Scala</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 30%;"
-  ></div>
+<p class="mt-2">Scala</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 30%;"></div>
 </div>
 
-<code>Power BI</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 60%;"
-  ></div>
+<p class="mt-2">Power BI</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 60%;"></div>
 </div>
 
-<code>R</code>
-<div
-  class="w-100 bg-secondary border border-secondary mt-1 mb-3"
-  style="height:15px;"
->
-  <div
-    class="bg-warning h-100"
-    style="width: 30%;"
-  ></div>
+<p class="mt-2">R</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 30%;"></div>
 </div>
 
 
-      </div>
-    </div>
-
-    <footer class="text-center m-4">
-  <a class="text-warning" href="">
-    © 2022, Alessandro Giovannacci
-  </a>
-  <span class="text-white">|</span>
-  <a class="text-warning" href="https://github.com/darshanbaral/sada">
-    <i>sada</i></a
-  >
-  <span class="text-white">by</span>
-  <a class="text-warning" href="https://www.darshanbaral.com">darshan</a>.
-</footer>
-
+</section>
+</main>
   </body>
 </html>
