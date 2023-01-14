@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Last experiences"
 
         [[params.jobs.list]]
-        position = "Software engineer" 
+        position = "Software engineer"
         dates = "2022 - present "
         link = "https://www.arca24.com/it/"
         company = "Arca24"
