@@ -30,7 +30,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         #class = "fab"
         #icon = "fa-linkedin-in"
         #url = "#"
-        #title = "LinkedIn"
+        #title = "LinkedIn "
 
         [[params.social.list]]
         class = "fab"
